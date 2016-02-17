@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-9ef904f02088409de815fbe14165419957cf1569	puppet-remote-distgit-ptl
+# UUID          Group Name
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73 	Non-Interactive Users
+a326e018d07cb0c5334df80685a3d299a7bda879       	puppet-remote-distgit-core
+9ef904f02088409de815fbe14165419957cf1569        	puppet-remote-distgit-ptl
+global:Registered-Users		Registered Users
