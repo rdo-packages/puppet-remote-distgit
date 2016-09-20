@@ -18,7 +18,7 @@ This Puppet Module provides types and providers for managing
 remote resources.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q -n %{name}-%{upstream_version}
 
 find . -type f -name ".*" -exec rm {} +
 find . -size 0 -exec rm {} +
