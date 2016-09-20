@@ -1,7 +1,7 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 Name:           puppet-remote
-Version:        XXX
-Release:        XXX
+Version:        v0.0.1
+Release:        1%{?alphatag}%{?dist}
 Summary:        Remote Puppet Module
 License:        Apache-2.0
 
@@ -42,4 +42,6 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/remote/
 
 
 %changelog
+* Fri Sep 16 2016 Haikel Guemar <hguemar@fedoraproject.org> v0.0.1-1.35cc557.git
+- Newton update v0.0.1 (35cc5571593d21408d625bd8ee35217345ec502a)
 
