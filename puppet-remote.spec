@@ -7,8 +7,8 @@
 
 
 Name:           puppet-remote
-Version:        0.0.1
-Release:        1%{?dist}
+Version:        v0.0.1
+Release:        1%{?alphatag}%{?dist}
 Summary:        Remote Puppet Module
 License:        Apache-2.0
 
@@ -49,6 +49,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/remote/
 
 
 %changelog
+* Tue Nov 15 2016 Alfredo Moralejo <amoralej@redhat.com> v0.0.1-1.35cc557.git
+- Newton update v0.0.1 (35cc5571593d21408d625bd8ee35217345ec502a)
+
 * Tue Sep 20 2016 Haikel Guemar <hguemar@fedoraproject.org> - 0.0.1-1
 - Newton update 0.0.1 (35cc5571593d21408d625bd8ee35217345ec502a)
 
