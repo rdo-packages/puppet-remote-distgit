@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5adbc538_eb7350e5",
+        "filename": "puppet-remote.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2016-11-15T23:13:57Z",
+      "side": 1,
+      "message": "keep 0.0.1",
+      "revId": "330e475c222bb7bf1c52d38d10fb060a99e2c46b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
