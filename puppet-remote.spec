@@ -10,7 +10,7 @@ Name:           puppet-remote
 Version:        XXX
 Release:        XXX
 Summary:        Remote Puppet Module
-License:        Apache-2.0
+License:        ASL 2.0
 
 URL:            https://github.com/paramite/puppet-remote
 
