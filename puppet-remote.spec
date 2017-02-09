@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppet-remote
-%global commit 35cc5571593d21408d625bd8ee35217345ec502a
+%global commit 2d3a47780b95b337b8e84558fe11977ea033d051
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
 
 Name:           puppet-remote
-Version:        XXX
-Release:        XXX
+Version:        0.0.1
+Release:        2%{?alphatag}%{?dist}
 Summary:        Remote Puppet Module
 License:        ASL 2.0
 
@@ -49,4 +49,6 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/remote/
 
 
 %changelog
+* Thu Feb 09 2017 Alfredo Moralejo <amoralej@redhat.com> 0.0.1-2.2d3a477git
+- Ocata update 0.0.1 (2d3a47780b95b337b8e84558fe11977ea033d051)
 
