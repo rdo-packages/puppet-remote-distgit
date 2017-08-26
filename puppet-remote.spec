@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppet-remote
-%global commit 35cc5571593d21408d625bd8ee35217345ec502a
+%global commit 7420908328b832f4b20e1eba44bcccd926da8faa
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
 
 Name:           puppet-remote
-Version:        XXX
-Release:        XXX
+Version:        0.0.1
+Release:        3%{?alphatag}%{?dist}
 Summary:        Remote Puppet Module
 License:        ASL 2.0
 
@@ -49,5 +49,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/remote/
 
 
 %changelog
+* Sat Aug 26 2017 Haïkel Guémar <hguemar@fedoraproject.org> - 0.0.1-3.74209083git
+- Pike update 0.0.1 (7420908328b832f4b20e1eba44bcccd926da8faa)
+
 
 
